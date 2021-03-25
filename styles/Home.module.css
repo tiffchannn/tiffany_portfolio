@@ -308,21 +308,21 @@
 .work_block {
   display: flex;
   flex-direction: row;
+  width: 96%;
 }
 
 .work_block2 {
   display: flex;
   flex-direction: row;
   margin-top: 200px;
+  width: 96%;
 }
 
 .work_img {
   /* height: 350px;
   width: 550px; */
-
   height: 360px;
   width: 654px;
-  background-color: lightblue;
   margin: 2px;
 }
 
