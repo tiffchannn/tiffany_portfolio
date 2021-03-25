@@ -25,11 +25,11 @@ export default function Contact() {
         <h1 className={styles.about_name}>Want to talk for real? Reach out, let's chat!</h1>
 
         <div className={styles.contacts}>
-          <p className={styles.contact_info_text}><a href="mailto:tiffany.yi.chan@gmail.com">EMAIL</a></p>
+          <p className={styles.contact_info_text}><a href="mailto:tiffany.yi.chan@gmail.com">Email</a></p>
 
-          <p className={styles.contact_info_text}><a href="https://www.linkedin.com/in/tiffanyyichan/">LINKEDIN</a></p>
+          <p className={styles.contact_info_text}><a href="https://www.linkedin.com/in/tiffanyyichan/">LinkedIn</a></p>
 
-          <p className={styles.contact_info_text}>RESUME</p>
+          <p className={styles.contact_info_text}>Resume</p>
         </div>
 
 
