@@ -39,12 +39,12 @@ export default function Home() {
         <div className={styles.projects}>
           <div className={styles.project_section}>
             <Link href="/work"><h2 className={styles.project_name}>Vibes Check</h2></Link>
-            <a href="https://github.com/tiffchannn/vibesCheck" className={styles.text}>Github</a>
+            <a href="https://github.com/tiffchannn/vibesCheck" className={styles.github_link}>Github</a>
           </div>
 
           <div className={styles.project_section}>
             <Link href="/work"><h2 className={styles.project_name}>Hiya!</h2></Link>
-            <a href="https://github.com/mkshin1/HIYA" className={styles.text}>Github</a>
+            <a href="https://github.com/mkshin1/HIYA" className={styles.github_link}>Github</a>
           </div>
 
         </div>

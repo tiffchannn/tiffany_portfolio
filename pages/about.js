@@ -28,7 +28,7 @@ export default function About() {
           <h3 className={styles.about_name}>Get to know a little about me ... </h3>
           <h4 className={styles.about_info}>I'm a full-stack developer with a diverse skill set, ranging from HTML + CSS + Javascript, all the way to Python and Java. Prior to my coding journey, I obtained my Master's Degree in Industrial and Organizational Psychology and worked in Talent Acquisition and Test Development.</h4>
 
-          {/* <br></br> */}
+          <br></br>
 
           <h4 className={styles.about_info2}>When I'm not coding, you can find me weight-lifting, inhaling food, curating my music collection or out with my two fur babies - Gizmo and Ollie. </h4>
         </div>

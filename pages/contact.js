@@ -29,7 +29,7 @@ export default function Contact() {
 
           <p className={styles.contact_info_text}><a href="https://www.linkedin.com/in/tiffanyyichan/">LinkedIn</a></p>
 
-          <p className={styles.contact_info_text}>Resume</p>
+          <p className={styles.contact_info_text}><a href="TiffanyChan_Resume.pdf">Resume</a></p>
         </div>
 
 
