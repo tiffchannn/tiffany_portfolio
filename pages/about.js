@@ -29,7 +29,7 @@ export default function About() {
         {/* <img src="/tiff.png" alt="Selfie" className={styles.selfie} />
         <img src="/selfie2.jpg" alt="Selfie" className={styles.selfie} /> */}
         {/* <img src="/tiff.png" alt="Selfie" className="h-72 w-96" /> */}
-        <img src="/selfie2.jpg" alt="Selfie" className="h-2/3 w-5/12" />
+        <img src="/selfie2.jpg" alt="Selfie" className="h-2/3 w-4/12" />
 
         {/* <div className={styles.about_div}> */}
         <div className="flex flex-col justify-center ml-12">

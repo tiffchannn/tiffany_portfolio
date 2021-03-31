@@ -40,15 +40,15 @@ export default function Work() {
           <img
             src="/VibesCheck1.png"
             alt="Vibe Check Landing Page"
-            className="w-5/12 ml-3 mr-3" />
+            className="w-4/12 ml-3 mr-3" />
           <img
             src="/VibesCheck2.png"
             alt="Vibe Check Song Info"
-            className="w-5/12 mr-3" />
+            className="w-4/12 mr-3" />
           <img
             src="/VibesCheck3.png"
             alt="Vibe Check Add New Song"
-            className="w-5/12 mr-3" />
+            className="w-4/12 mr-3" />
         </div>
 
         <Link href="https://github.com/tiffchannn/vibesCheck">
@@ -69,15 +69,15 @@ export default function Work() {
           <img
             src="/Hiya_Dashboard.png"
             alt="Hiya Dashboard"
-            className="w-5/12 ml-2 mr-1" />
+            className="w-4/12 ml-2 mr-1" />
           <img
             src="/Hiya_PostDetail.png"
             alt="Hiya Post Detail Page"
-            className="w-5/12 ml-3 mr-1" />
+            className="w-4/12 ml-3 mr-1" />
           <img
             src="/Hiya_PostUpdate.png"
             alt="Hiya Update a Post"
-            className="w-5/12 ml-3 mr-2" />
+            className="w-4/12 ml-3 mr-2" />
         </div>
         <Link href="https://github.com/mkshin1/HIYA">
           {/* <h1 className={styles.project_name}>Hiya!</h1> */}
