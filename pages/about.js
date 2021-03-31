@@ -20,7 +20,7 @@ export default function About() {
         <div className="text-white flex justify-center mt-7 mr-6  font-default italic text-xl">
           <Link href="/"><a className="mr-9 hover:text-nude-500">Home</a></Link>
           <Link href="/work"><a className="mr-9 hover:text-nude-500">Work</a></Link>
-          <Link href="/contact"><a className="mr-9 hover:text-nude-500">Contact</a></Link>
+          <Link href="/contact"><a className="mr-12 hover:text-nude-500">Contact</a></Link>
         </div>
       </div>
 
