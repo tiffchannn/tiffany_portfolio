@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     // <div className={styles.container}>
-    <div className="bg-nude-100 min-h-screen p-0">
+    <div className="bg-nude-100 h-full lg:min-h-screen p-0 w-min lg:w-full">
       <Head>
         <title>Tiffany Chan | Web Developer</title>
       </Head>
@@ -25,11 +25,11 @@ export default function Home() {
       </div>
 
       {/* <main className={styles.main}> */}
-      <main className="flex flex-col flex-1 justify-center items-center pt-40 pb-20 px-10">
+      <main className="flex flex-col justify-center items-center h-full pt-40 pb-96 lg:pb-20 px-10">
 
         {/* INTRO SECTION */}
         {/* <div className={styles.top_section}> */}
-        <div className="h-72 w-full">
+        <div className="lg:h-72 w-full">
           {/* <h1 className={styles.title}> */}
           <h1 className="font-default italic m-0 text-6xl text-center">
             Hey there, I'm Tiffany.
@@ -44,7 +44,7 @@ export default function Home() {
 
         {/* PROJECT / WORK SECTION */}
         {/* <div className={styles.projects}> */}
-        <div className="flex flex-row mt-40">
+        <div className="flex flex-row mt-32 lg:mt-40">
           {/* <div className={styles.project_section}> */}
           <div className="mx-24 w-64 text-center">
             {/* <Link href="/work"><h2 className={styles.project_name}>Vibes Check</h2></Link> */}
