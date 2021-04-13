@@ -5,58 +5,61 @@ import Link from 'next/link'
 export default function About() {
   return (
     // <div className={styles.container}>
-    <div className="bg-nude-100 min-h-screen p-0">
+    // <div className="bg-nude-100 min-h-screen p-0">
+    <div className="bg-nude-100 h-full lg:min-h-screen p-0 w-auto">
       <Head>
         <title>Tiffany Chan | Web Developer</title>
       </Head>
 
       {/* <div className={styles.navbar}> */}
-      <div className="flex sticky top-0 left-0 justify-between h-20 bg-nude-200">
+      <div className="flex sticky top-0 left-0 justify-between h-20 bg-nude-200  w-full">
         <div>
           {/* <Link href="/"><h1 className={styles.fullname}>Tiffany Chan</h1></Link> */}
-          <Link href="/"><h1 className="text-white font-default italic m-4 text-5xl">Tiffany Chan</h1></Link>
+          {/* <Link href="/"><h1 className="text-white font-default italic m-4 text-5xl">Tiffany Chan</h1></Link> */}
+          <Link href="/"><h1 className="text-white font-default italic m-4 text-3xl lg:text-5xl">Tiffany Chan</h1></Link>
         </div>
         {/* <div className={styles.nav_links}> */}
-        <div className="text-white flex justify-center mt-7 mr-6  font-default italic text-xl">
-          <Link href="/"><a className="mr-9 hover:text-nude-500">Home</a></Link>
-          <Link href="/work"><a className="mr-9 hover:text-nude-500">Work</a></Link>
-          <Link href="/contact"><a className="mr-12 hover:text-nude-500">Contact</a></Link>
+        {/* <div className="text-white flex justify-center mt-7 mr-6  font-default italic text-xl"> */}
+        <div className="text-white flex justify-center mt-7 lg:mt-7 lg:mr-6 font-default italic text-xl">
+          <Link href="/"><a className="text-white mr-2 lg:mr-9 hover:text-nude-500">Home</a></Link>
+          <Link href="/work"><a className="text-white mr-2 lg:mr-9 hover:text-nude-500">Work</a></Link>
+          <Link href="/contact"><a className="text-white mr-4 lg:mr-12 hover:text-nude-500">Contact</a></Link>
         </div>
       </div>
 
       {/* <div className={styles.content}> */}
-      <div className="flex flex-row justify-center mt-20">
+      <div className="flex flex-col p-4  lg:flex-row justify-center items-center mt-10 lg:mt-20 lg:mx-10">
         {/* <img src="/tiff.png" alt="Selfie" className={styles.selfie} />
         <img src="/selfie2.jpg" alt="Selfie" className={styles.selfie} /> */}
         {/* <img src="/tiff.png" alt="Selfie" className="h-72 w-96" /> */}
-        <img src="/selfie2.jpg" alt="Selfie" className="h-2/3 w-4/12" />
+        <img src="/selfie2.jpg" alt="Selfie" className="h-2/5 w-3/5 mb-4 lg:h-2/3 lg:w-4/12" />
 
         {/* <div className={styles.about_div}> */}
-        <div className="flex flex-col justify-center ml-12">
+        <div className="flex flex-col justify-center ml-4 lg:ml-12">
           {/* <h3 className={styles.about_name}> */}
-          <h3 className="font-default italic text-4xl">
+          <h3 className="font-default italic text-xl lg:text-4xl pb-1.5">
             Get to know a little about me ...
           </h3>
           {/* <h4 className={styles.about_info}> */}
-          <h4 className="font-default text-base font-thin w-96 pl-4">
+          <h4 className="font-default text-sm font-thin w-auto text-left lg:w-96 lg:pl-4">
             I'm a full-stack developer with a diverse skill set, ranging from HTML + CSS + Javascript, all the way to Python and Java. Prior to my coding journey, I obtained my Master's Degree in Industrial and Organizational Psychology and worked in Talent Acquisition and Test Development.
           </h4>
 
-          <br></br>
+          {/* <br></br> */}
 
           {/* <h4 className={styles.about_info2}> */}
-          <h4 className="font-default text-base font-thin w-96 pl-4 mt-0">
+          <h4 className="font-default text-sm font-thin w-auto mt-4 text-left lg:w-96 lg:pl-4">
             When I'm not coding, you can find me weight-lifting, inhaling food, curating my music collection or out with my two fur babies - Gizmo and Ollie.
           </h4>
         </div>
       </div>
 
-      <div className="flex flex-col align-center justify-start mt-20 mx-20 pb-40 bg-nude-100">
-        <h3 className="font-default italic text-4xl mx-11">
+      <div className="flex flex-col align-center justify-start bg-nude-100 p-7 lg:mt-20 lg:mx-20 lg:pb-40">
+        <h3 className="font-default italic text-xl  mt-5 lg:text-4xl lg:mx-11">
           How it all started ...
         </h3>
 
-        <p className="font-default mx-12 mt-5">
+        <p className="font-default text-sm m-1 lg:mx-12 lg:mt-5">
           2020 was something none of us could have imagined or predicted. We were all forced to slow down a bit, reflect, evaluate and embrace our new normal with the lockdown due to Coronavirus. I saw this as the perfect opportunity to dive head first into something that was looming in the back of my mind for years. I was going to switch careers and attend a coding bootcamp. And yes, years. Yes, I also seriously considered going the bootcamp route even before I got my Master’s degree. My joy for coding dates way back to the early 2000’s, Xanga days. This was my first taste of HTML and CSS. I was intrigued and driven by how I could customize and tailor my personal page into whatever I wanted. My favorite tunes playing in the background? Oh yeah. Cursor with trailing stars? Uh-huh. Alert windows with a custom greeting message? Super cool. Fonts and colors galore! Back then, I didn’t think much about how fun I thought this was, let alone the idea that this could become a possible career, so I let that joy fizzle away. I explored other interests and focused on (lots) school instead. I went to Le Cordon Bleu for culinary school. I got my Bachelor’s degree in Sociology Administration and Marketing. I even got my Master’s degree in Industrial and Organizational Psychology. I did a lot. Fast forward to early 2020, I was recently unemployed and exhausted by the constant rejections of the job hunt. It was a sign, telling me that this was finally the time to act on my shelved-away teenage hobby.  I was going all-in, determined to become a Software Engineer.
           <br></br>
           <br></br>
