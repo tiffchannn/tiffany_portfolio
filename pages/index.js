@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 // import styles from '../styles/Home.module.css'
 
-export default function Home() {
+export default function Index() {
   return (
     // <div className={styles.container}>
     <div className="bg-nude-100 h-full lg:min-h-screen p-0 w-min lg:w-full">
@@ -26,7 +26,7 @@ export default function Home() {
 
       {/* <main className={styles.main}> */}
       <main className="flex flex-col justify-center items-center h-full pt-40 pb-96 lg:pb-20 px-10">
-
+ß
         {/* INTRO SECTION */}
         {/* <div className={styles.top_section}> */}
         <div className="lg:h-72 w-full">
