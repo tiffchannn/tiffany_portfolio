@@ -12,7 +12,7 @@ export default function Contact() {
       {/* <div className={styles.navbar}> */}
       <div className="flex sticky top-0 left-0 justify-between h-20 bg-nude-200">
         <div>
-          <Link href="/home">
+          <Link href="/">
             <h1 className="text-white font-default italic m-4 text-5xl">
               Tiffany Chan
             </h1>
@@ -20,7 +20,7 @@ export default function Contact() {
         </div>
         {/* <div className={styles.nav_links}> */}
         <div className="text-white flex justify-center mt-7 mr-6  font-default italic text-xl">
-          <Link href="/home"><a className="mr-9 hover:text-nude-500">Home</a></Link>
+          <Link href="/"><a className="mr-9 hover:text-nude-500">Home</a></Link>
           <Link href="/about"><a className="mr-9 hover:text-nude-500">About</a></Link>
           <Link href="/work"><a className="mr-12 hover:text-nude-500">Work</a></Link>
         </div>
