@@ -26,7 +26,6 @@ export default function Index() {
 
       {/* <main className={styles.main}> */}
       <main className="flex flex-col justify-center items-center h-full pt-40 pb-96 lg:pb-20 px-10">
-ß
         {/* INTRO SECTION */}
         {/* <div className={styles.top_section}> */}
         <div className="lg:h-72 w-full">
