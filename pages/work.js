@@ -28,34 +28,34 @@ export default function Work() {
       </div>
 
       {/* <main className={styles.work_content}> */}
-      <main className="flex flex-col text-center py-10 pb-0 md:ml-16 lg:ml-8">
+      <main className="container mx-auto p-8">
 
-        <h1 className="text-nude-400 font-default italic text-5xl lg:text-6xl mb-20 md:-ml-10">Work & Projects</h1>
+        <h1 className="text-nude-400 font-default italic text-5xl lg:text-6xl mb-20 md:-ml-10 text-center">Work & Projects</h1>
 
         {/* <div className="flex flex-row justify-center mx-40 align-center mb-8"> */}
-        <div className="grid grid-cols-1 gap-3 lg:grid-cols-3">
-          <div className="ml-4 md:-ml-10">
+        <div className="grid grid-cols-1 gap-3 md:grid-cols-3">
+          <div>
             <img
               src="/VibesCheck1.png"
               alt="Vibe Check Landing Page"
-              className="w-48 h-32 lg:h-4/5 lg:w-4/5" />
+              className="w-full" />
           </div>
           <div>
             <img
               src="/VibesCheck2.png"
               alt="Vibe Check Song Info"
-              className="w-48 h-32 lg:h-4/5 lg:w-4/5 md:-ml-3" />
+              className="w-full" />
           </div>
           <div>
             <img
               src="/VibesCheck3.png"
               alt="Vibe Check Add New Song"
-              className="w-48 h-32 lg:h-4/5 lg:w-4/5" />
+              className="w-full" />
           </div>
 
         </div>
 
-        <div className="md:-ml-12">
+        <div className="text-center">
           <Link href="https://github.com/tiffchannn/vibesCheck">
             {/* <h1 className={styles.project_name}>Vibes Check</h1> */}
             <h1 className="font-default italic text-4xl mt-8 mb-4 leading-6 hover:text-nude-300">Vibes Check</h1>
@@ -71,28 +71,28 @@ export default function Work() {
         <br></br>
 
         {/* <div className="flex flex-row justify-center mx-40 align-center mb-8"> */}
-        <div className="grid grid-cols-3">
-          <div className="ml-4 md:-ml-10">
+        <div className="grid grid-cols-1 gap-3 md:grid-cols-3">
+          <div>
             <img
               src="/Hiya_Dashboard.png"
               alt="Hiya Dashboard"
-              className="w-48 h-32 lg:h-4/5 lg:w-4/5 ml-3 mr-3" />
+              className="w-full" />
           </div>
           <div>
             <img
               src="/Hiya_PostDetail.png"
               alt="Hiya Post Detail Page"
-              className="w-48 h-32 lg:h-4/5 lg:w-4/5 ml-3 mr-3  md:-ml-3" />
+              className="w-full" />
           </div>
           <div>
             <img
               src="/Hiya_PostUpdate.png"
               alt="Hiya Update a Post"
-              className="w-48 h-32 lg:h-4/5 lg:w-4/5 ml-3 mr-3" />
+              className="w-full" />
           </div>
         </div>
 
-        <div className="md:-ml-12">
+        <div className="text-center">
           <Link href="https://github.com/mkshin1/HIYA">
             {/* <h1 className={styles.project_name}>Hiya!</h1> */}
             <h1 className="font-default italic text-4xl mt-8 mb-4 leading-6 hover:text-nude-300">Hiya!</h1>
