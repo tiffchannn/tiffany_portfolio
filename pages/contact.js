@@ -9,7 +9,7 @@ export default function Contact() {
         <title>Tiffany Chan | Web Developer</title>
       </Head>
 
-      {/* <div className={styles.navbar}> */}
+      {/* NAV BAR */}
       <div className="flex sticky top-0 left-0 justify-between h-20 bg-nude-200">
         <div>
           <Link href="/">
@@ -18,7 +18,6 @@ export default function Contact() {
             </h1>
           </Link>
         </div>
-        {/* <div className={styles.nav_links}> */}
         <div className="text-white flex justify-center mt-7 mr-6  font-default italic text-xl">
           <Link href="/"><a className="mr-9 hover:text-nude-500">Home</a></Link>
           <Link href="/about"><a className="mr-9 hover:text-nude-500">About</a></Link>
@@ -26,7 +25,6 @@ export default function Contact() {
         </div>
       </div>
 
-      {/* <div className={styles.contact_div}> */}
       <div className="mt-44 text-center">
 
         <div>

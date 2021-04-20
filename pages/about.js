@@ -4,22 +4,15 @@ import Link from 'next/link'
 
 export default function About() {
   return (
-    // <div className={styles.container}>
-    // <div className="bg-nude-100 min-h-screen p-0">
     <div className="bg-nude-100 h-full lg:min-h-screen p-0 w-auto">
       <Head>
         <title>Tiffany Chan | Web Developer</title>
       </Head>
 
-      {/* <div className={styles.navbar}> */}
       <div className="flex sticky top-0 left-0 justify-between h-20 bg-nude-200  w-full">
         <div>
-          {/* <Link href="/"><h1 className={styles.fullname}>Tiffany Chan</h1></Link> */}
-          {/* <Link href="/"><h1 className="text-white font-default italic m-4 text-5xl">Tiffany Chan</h1></Link> */}
           <Link href="/"><h1 className="text-white font-default italic m-4 text-3xl lg:text-5xl">Tiffany Chan</h1></Link>
         </div>
-        {/* <div className={styles.nav_links}> */}
-        {/* <div className="text-white flex justify-center mt-7 mr-6  font-default italic text-xl"> */}
         <div className="text-white flex justify-center mt-7 lg:mt-7 lg:mr-6 font-default italic text-xl">
           <Link href="/"><a className="text-white mr-2 lg:mr-9 hover:text-nude-500">Home</a></Link>
           <Link href="/work"><a className="text-white mr-2 lg:mr-9 hover:text-nude-500">Work</a></Link>
@@ -27,27 +20,17 @@ export default function About() {
         </div>
       </div>
 
-      {/* <div className={styles.content}> */}
       <div className="flex flex-col p-4  lg:flex-row justify-center items-center mt-10 lg:mt-20 lg:mx-10">
-        {/* <img src="/tiff.png" alt="Selfie" className={styles.selfie} />
-        <img src="/selfie2.jpg" alt="Selfie" className={styles.selfie} /> */}
-        {/* <img src="/tiff.png" alt="Selfie" className="h-72 w-96" /> */}
         <img src="/selfie2.jpg" alt="Selfie" className="h-2/5 w-3/5 mb-4 lg:h-2/3 lg:w-4/12" />
 
-        {/* <div className={styles.about_div}> */}
         <div className="flex flex-col justify-center ml-4 lg:ml-12">
-          {/* <h3 className={styles.about_name}> */}
           <h3 className="font-default italic text-xl lg:text-4xl pb-1.5">
             Get to know a little about me ...
           </h3>
-          {/* <h4 className={styles.about_info}> */}
           <h4 className="font-default text-sm font-thin w-auto text-left lg:w-96 lg:pl-4">
             I'm a full-stack developer with a diverse skill set, ranging from HTML + CSS + Javascript, all the way to Python and Java. Prior to my coding journey, I obtained my Master's Degree in Industrial and Organizational Psychology and worked in Talent Acquisition and Test Development.
           </h4>
 
-          {/* <br></br> */}
-
-          {/* <h4 className={styles.about_info2}> */}
           <h4 className="font-default text-sm font-thin w-auto mt-4 text-left lg:w-96 lg:pl-4">
             When I'm not coding, you can find me weight-lifting, inhaling food, curating my music collection or out with my two fur babies - Gizmo and Ollie.
           </h4>
