@@ -71,9 +71,29 @@ export default function Index() {
         <div className="flex flex-row mt-48 items-center">
           {/* <h3 className={styles.contact_text}>Don't be a stranger, shoot me a message!</h3> */}
           <h3 className="font-default italic text-3xl hover:text-nude-500">
-            <a href="mailto:tiffany.yi.chan@gmail.com">Don't be a stranger, shoot me a message!</a></h3>
+            <a href="mailto:tiffany.yi.chan@gmail.com">Don't be a stranger, let's chat!</a></h3>
           <img src="/paper_plane.png" alt="Email logo" className="h-10 m-2.5"/>
         </div>
+
+        <div className="flex text-center">
+            <p className="font-default text-base px-8">
+              <a href="mailto:tiffany.yi.chan@gmail.com">
+                Email
+              </a>
+            </p>
+            <p className="font-default text-base px-8">
+              <a href="https://www.linkedin.com/in/tiffanyyichan/">
+                LinkedIn
+              </a>
+            </p>
+            <p className="font-default text-base px-8">
+              <a href="TiffanyChan_Resume.pdf">
+                Resume
+              </a>
+            </p>
+        </div>
+
+
       </main>
     </div>
   )

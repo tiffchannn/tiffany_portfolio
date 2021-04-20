@@ -35,7 +35,6 @@ export default function Contact() {
           </h1>
 
           <div className="flex flex-row justify-center">
-            {/* <p className={styles.contact_info_text}> */}
             <p className="font-default text-base p-5">
               <a href="mailto:tiffany.yi.chan@gmail.com">
                 Email
