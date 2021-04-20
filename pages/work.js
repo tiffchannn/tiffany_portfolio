@@ -38,19 +38,19 @@ export default function Work() {
             <img
               src="/VibesCheck1.png"
               alt="Vibe Check Landing Page"
-              className="w-full" />
+              className="w-full lg:h-56 " />
           </div>
           <div>
             <img
               src="/VibesCheck2.png"
               alt="Vibe Check Song Info"
-              className="w-full" />
+              className="w-full lg:h-56" />
           </div>
           <div>
             <img
               src="/VibesCheck3.png"
               alt="Vibe Check Add New Song"
-              className="w-full" />
+              className="w-full lg:h-56" />
           </div>
 
         </div>
@@ -76,19 +76,19 @@ export default function Work() {
             <img
               src="/Hiya_Dashboard.png"
               alt="Hiya Dashboard"
-              className="w-full" />
+              className="w-full lg:h-56" />
           </div>
           <div>
             <img
               src="/Hiya_PostDetail.png"
               alt="Hiya Post Detail Page"
-              className="w-full" />
+              className="w-full lg:h-56" />
           </div>
           <div>
             <img
               src="/Hiya_PostUpdate.png"
               alt="Hiya Update a Post"
-              className="w-full" />
+              className="w-full lg:h-56" />
           </div>
         </div>
 
