@@ -71,7 +71,7 @@ export default function Index() {
               </a>
             </p>
             <p className="font-default text-base px-8">
-              <a href="TiffanyChan_Resume.pdf">
+              <a href="TiffanyChan.Resume.pdf">
                 Resume
               </a>
             </p>
