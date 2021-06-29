@@ -46,7 +46,7 @@ export default function Contact() {
             </p>
 
             <p className="font-default text-base p-5">
-              <a href="TiffanyChan.Resume.pdf">
+              <a href="TC_Resume.pdf">
                 Resume
               </a>
             </p>
