@@ -28,7 +28,7 @@ export default function About() {
             Get to know a little about me ...
           </h3>
           <h4 className="font-default text-sm font-thin w-auto text-left lg:w-96 lg:pl-4">
-            I'm a full-stack developer with a diverse skill set, ranging from HTML + CSS + Javascript, all the way to Python and Java. Prior to my coding journey, I obtained my Master's Degree in Industrial and Organizational Psychology and worked in Talent Acquisition and Test Development.
+            I'm a Full Stack Software Engineer with a unique background in Industrial and Organizational Psychology.
           </h4>
 
           <h4 className="font-default text-sm font-thin w-auto mt-4 text-left lg:w-96 lg:pl-4">

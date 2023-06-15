@@ -29,7 +29,7 @@ export default function Index() {
           </h1>
 
           <p className="font-default text-lg text-center leading-6">
-            I'm a full-stack developer, but also dog-mom, music-lover, weight-lifter, food-inhaler. I have a diverse skill set, ranging from HTML + CSS + Javascript, all the way to Python and Java.
+            I'm a Full Stack Software Engineer, but also dog-mom, music-lover, weight-lifter, food-inhaler.
           </p>
         </div>
 
@@ -56,25 +56,25 @@ export default function Index() {
         <div className="flex flex-row mt-48 items-center">
           <h3 className="font-default italic text-3xl hover:text-nude-500">
             <a href="mailto:tiffany.yi.chan@gmail.com">Don't be a stranger, let's chat!</a></h3>
-          <img src="/paper_plane.png" alt="Email logo" className="h-10 m-2.5"/>
+          <img src="/paper_plane.png" alt="Email logo" className="h-10 m-2.5" />
         </div>
 
         <div className="flex text-center">
-            <p className="font-default text-base px-8">
-              <a href="mailto:tiffany.yi.chan@gmail.com">
-                Email
-              </a>
-            </p>
-            <p className="font-default text-base px-8">
-              <a href="https://www.linkedin.com/in/tiffanyyichan/">
-                LinkedIn
-              </a>
-            </p>
-            <p className="font-default text-base px-8">
-              <a href="TC_Resume.pdf">
-                Resume
-              </a>
-            </p>
+          <p className="font-default text-base px-8">
+            <a href="mailto:tiffany.yi.chan@gmail.com">
+              Email
+            </a>
+          </p>
+          <p className="font-default text-base px-8">
+            <a href="https://www.linkedin.com/in/tiffanyyichan/">
+              LinkedIn
+            </a>
+          </p>
+          <p className="font-default text-base px-8">
+            <a href="TC_Engineering_Resume.pdf">
+              Resume
+            </a>
+          </p>
         </div>
 
 
